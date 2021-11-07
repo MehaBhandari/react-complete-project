@@ -1,7 +1,7 @@
 import { useState } from "react";
-import {ChildCounterComponentOne} from "./useState/ChildCounterComponentOne";
-import {ChildCounterComponentTwo} from "./useState/ChildCounterComponentTwo";
-import {ChildObjUpdate} from "./useState/ChildObjUpdate";
+import {ChildCounterComponentOne} from "./childComponents/ChildCounterComponentOne";
+import {ChildCounterComponentTwo} from "./childComponents/ChildCounterComponentTwo";
+import {ChildObjUpdate} from "./childComponents/ChildObjUpdate";
 import "./ParenthookComponent.css";
 
 export default function ParentHookComponent() {
@@ -20,9 +20,9 @@ export default function ParentHookComponent() {
         setEmpData({...empData, [key]: value});
         alert( key+ " is changed...");
     }
-    // setTimeout(()=>{
-    //     return setCounter2(counter2+1);
-    // },1000);
+    setTimeout(()=>{
+        return setCounter2(counter2+1);
+    },1000);
     
     return(
         <div style={{"paddimg": "5px", "margin": "5px"}}>
