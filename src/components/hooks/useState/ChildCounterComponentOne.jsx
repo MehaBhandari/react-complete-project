@@ -5,7 +5,7 @@ export function ChildCounterComponentOne(props) {
     }
     return (
         <div>
-            <h2>Updating counter on click: </h2>
+            <h2>Updating Child1 Counter on click: </h2>
             <p>Counter is: {props.counter}</p>
             <button onClick={updateCounterOnClick}>Click Me To Update Counter</button>
         </div>
