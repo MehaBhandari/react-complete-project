@@ -4,7 +4,7 @@ export function ChildCounterComponentOne(props) {
         alert("Counter updated");
     }
     return (
-        <div>
+        <div className={props.stylingObj.dummyClass}>
             <h2>Updating Child1 Counter on click: </h2>
             <p>Counter is: {props.counter}</p>
             <button onClick={updateCounterOnClick}>Click Me To Update Counter</button>
