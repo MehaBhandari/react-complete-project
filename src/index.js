@@ -1,17 +1,10 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import  Component  from './components/WelcomeComponent';
+// import Component from './components/propsExample/PropsParentComponent';
+import Component from './components/complexData/ComplexDataParentComponent';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<Component></Component>, document.getElementById('main-container'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// setInterval(() => {
+//     ReactDOM.render(<Component></Component>, document.getElementById('main-container'))
+// }, 1000)
