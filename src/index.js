@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 // import Component from './components/complexData/ComplexDataParentComponent';
 // import Component from './components/hooks/useState/ParenthookComponent';
 // import Component from './components/hooks/useEffect/ParenthookComponent';
-import Component from './components/hooks/forms/EmployeeFormComponent';
+// import Component from './components/forms/EmployeeFormComponent';
+import Component from './components/hooks/customHooks/CustomHooksComponent';
 
 ReactDOM.render(<Component></Component>, document.getElementById('main-container'));
 
