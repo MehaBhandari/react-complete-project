@@ -5,9 +5,15 @@ import ReactDOM from 'react-dom';
 // import Component from './components/hooks/useState/ParenthookComponent';
 // import Component from './components/hooks/useEffect/ParenthookComponent';
 // import Component from './components/forms/EmployeeFormComponent';
-import Component from './components/hooks/customHooks/CustomHooksComponent';
+// import Component from './components/hooks&Axios/customHooks&Axios/CustomHooksComponent';
+import {ManagerWrappedComponent,HRWrappedFunctionalComponent} from './components/HOC/HigherOrderComponent';
 
-ReactDOM.render(<Component></Component>, document.getElementById('main-container'));
+ReactDOM.render(
+    <div>
+        <ManagerWrappedComponent></ManagerWrappedComponent>
+        <HRWrappedFunctionalComponent></HRWrappedFunctionalComponent>
+    </div>, 
+    document.getElementById('main-container'));
 
 // setInterval(() => {
 //     ReactDOM.render(<Component></Component>, document.getElementById('main-container'))
