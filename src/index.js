@@ -6,12 +6,14 @@ import ReactDOM from 'react-dom';
 // import Component from './components/hooks/useEffect/ParenthookComponent';
 // import Component from './components/forms/EmployeeFormComponent';
 // import Component from './components/hooks&Axios/customHooks&Axios/CustomHooksComponent';
-import {ManagerWrappedComponent,HRWrappedFunctionalComponent} from './components/HOC/HigherOrderComponent';
+// import {ManagerWrappedComponent,HRWrappedFunctionalComponent} from './components/HOC/HigherOrderComponent';
+import Component from "./components/classes/context/ContextAPIGrandParentComponent";
 
 ReactDOM.render(
     <div>
-        <ManagerWrappedComponent></ManagerWrappedComponent>
-        <HRWrappedFunctionalComponent></HRWrappedFunctionalComponent>
+        {/* <ManagerWrappedComponent></ManagerWrappedComponent>
+        <HRWrappedFunctionalComponent></HRWrappedFunctionalComponent> */}
+        <Component></Component>
     </div>, 
     document.getElementById('main-container'));
 
