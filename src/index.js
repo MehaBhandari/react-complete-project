@@ -10,7 +10,9 @@ import ReactDOM from 'react-dom';
 // import Component from "./components/classes/context/ContextAPIGrandParentComponent";
 // import Component from './components/hooks&Axios/useContext/UseContextComponent';
 // import Component from './components/classes/lifecycles/LifecycleComponent';
-import Component from './components/classes/pureComponent/PureComponent';
+// import Component from './components/classes/pureComponent/PureComponent';
+import Component from './components/classes/lifecycles/errorHandling/ErrorHandlingComponentClass';
+// import Component from './components/classes/lifecycles/errorHandling/ErrorHandlingParentChildComponent';
 
 ReactDOM.render(
     <div>
