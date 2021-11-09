@@ -3,7 +3,7 @@ const FamilyContext = React.createContext({});
 const FamilyProvider = FamilyContext.Provider;
 const FamilyConsumer = FamilyContext.Consumer;
 
-export default class ContextAPIGrandParentComponent extends React.Component {
+export default class ContextAPIGrandParentComponentClass extends React.Component {
     constructor() {
         super();
         this.state = {

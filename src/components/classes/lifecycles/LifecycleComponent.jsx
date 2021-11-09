@@ -1,6 +1,6 @@
 import  Axios from "axios";
 import React from 'react';
-export default class LifecycleComponent extends React.Component {
+export default class LifecycleComponentClass extends React.Component {
     constructor() {
         super();
         this.state = {
