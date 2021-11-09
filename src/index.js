@@ -8,7 +8,8 @@ import ReactDOM from 'react-dom';
 // import Component from './components/hooks&Axios/customHooks&Axios/CustomHooksComponent';
 // import {ManagerWrappedComponent,HRWrappedFunctionalComponent} from './components/HOC/HigherOrderComponent';
 // import Component from "./components/classes/context/ContextAPIGrandParentComponent";
-import Component from './components/hooks&Axios/useContext/UseContextComponent';
+// import Component from './components/hooks&Axios/useContext/UseContextComponent';
+import Component from './components/classes/lifecycles/LifecycleComponent';
 
 ReactDOM.render(
     <div>
