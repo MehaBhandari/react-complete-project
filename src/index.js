@@ -9,7 +9,8 @@ import ReactDOM from 'react-dom';
 // import {ManagerWrappedComponent,HRWrappedFunctionalComponent} from './components/HOC/HigherOrderComponent';
 // import Component from "./components/classes/context/ContextAPIGrandParentComponent";
 // import Component from './components/hooks&Axios/useContext/UseContextComponent';
-import Component from './components/classes/lifecycles/LifecycleComponent';
+// import Component from './components/classes/lifecycles/LifecycleComponent';
+import Component from './components/classes/pureComponent/PureComponent';
 
 ReactDOM.render(
     <div>
