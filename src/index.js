@@ -11,13 +11,15 @@ import ReactDOM from 'react-dom';
 // import Component from './components/hooks&Axios/useContext/UseContextComponent';
 // import Component from './components/classes/lifecycles/LifecycleComponent';
 // import Component from './components/classes/pureComponent/PureComponent';
-import Component from './components/classes/lifecycles/errorHandling/ErrorHandlingComponentClass';
+// import Component from './components/classes/lifecycles/errorHandling/ErrorHandlingComponentClass';
 // import Component from './components/classes/lifecycles/errorHandling/ErrorHandlingParentChildComponent';
+import Component from './components/lazyloading/LazyLoadingComponent';
 
 ReactDOM.render(
     <div>
         {/* <ManagerWrappedComponent></ManagerWrappedComponent>
         <HRWrappedFunctionalComponent></HRWrappedFunctionalComponent> */}
+        {/* <Component name="Meha"></Component> */}
         <Component></Component>
     </div>, 
     document.getElementById('main-container'));
