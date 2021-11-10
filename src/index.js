@@ -13,7 +13,8 @@ import ReactDOM from 'react-dom';
 // import Component from './components/classes/pureComponent/PureComponent';
 // import Component from './components/classes/lifecycles/errorHandling/ErrorHandlingComponentClass';
 // import Component from './components/classes/lifecycles/errorHandling/ErrorHandlingParentChildComponent';
-import Component from './components/lazyloading/LazyLoadingComponent';
+// import Component from './components/lazyloading/LazyLoadingComponent';
+import Component from './components/routing/ParentRouterComponent';
 
 ReactDOM.render(
     <div>
