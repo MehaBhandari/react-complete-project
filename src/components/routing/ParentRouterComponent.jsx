@@ -26,13 +26,13 @@ export default function ParentRouterComponent() {
                     <div>
                         <Link style={{paddingRight: "10px"}} to="/">Home</Link>
                         
-                        <Link style={{paddingRight: "10px"}} to="/about/1">About1</Link>
-                        <Link style={{paddingRight: "10px"}} to="/about/2">About2</Link>
-                        <Link style={{paddingRight: "10px"}} to="/about/3">About3</Link>
+                        <Link style={{paddingRight: "10px"}} to="/about/1/About1">About1</Link>
+                        <Link style={{paddingRight: "10px"}} to="/about/2/About2">About2</Link>
+                        <Link style={{paddingRight: "10px"}} to="/about/3/About3">About3</Link>
                         <Link style={{paddingRight: "10px"}} to="/help">Help</Link>
                     </div>
                     <Route exact path="/" component={HomeComponent}></Route>
-                    <Route exact path="/about/:id" component={AboutComponent}></Route>
+                    <Route exact path="/about/:id/:name" component={AboutComponent}></Route>
                     <Route exact path="/help" component={HelpComponent}></Route>        
                 </div>   
             </BrowserRouter>
